@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non Inputs Form Elements</title>
+</head>
+<body>
+<form>
+    <!-- Select Elements -->
+    <!-- Select Elements have opening and closing tags. Must create option elements inside of those tags. -->
+    <label for="fastFood">Favorite Fast Food</label>
+    <select id="fastFood">
+        <!-- The hidden attribute will make the option no longer display after the user click to view the dropdown menu -->
+    <option>select a restaurant</option>
+    <!-- When an option is a select is submitted the value set for value attribute is what is sent -->
+    <option value="wendys">Wendy's</option>
+    <option value="hardees">Hardee's</option>
+    <option value="chickfilA">Chick-Fil-A</option>
+    <option value="zaxbys">Zaxby's</option>
+    <option value="tacoBell">Taco Bell</option>
+    </select>
+
+    <br>
+
+<!-- Textarea -->
+<label for="joke">Type out a funny joke:</label>
+
+<br>
+
+<!-- Textarea is where the user can type. The colums and rows attributes determine the size of the textarea -->
+<!--Text in between the opening and closing textarea tags will be set as the starting value (NOTE: This will override a placeholder)-->
+<textarea id="joke" cols="30" rows="10" placeholder="Type joke here">What do you call an Alligator wearing a vest?</textarea>
+
+<br>
+
+<!-- Button -->
+<!-- Similar to a submit input, the Button element will also sabmit/send for values. (NOTE: button elemetn must be inside form tags that the form tags thay the other elements are inside of) -->
+<button>Click Here</button>
+</form>
+
+<form>
+    <!-- Fieldset -->
+    <!-- Fieldset is used to group related form elements on a page. A legend element is commoonly used with a fieldset add a title to it. -->
+    <fieldset>
+        <legend>Favorite Desserts</legend>
+        <label for="cold">Cold</label>
+        <select id="cold">
+            <option>Tiramisu</option>
+            <option>Jello</option>
+            <option>Ice Cream</option>
+            <option>Fruit</option>
+            <option>Ice Cream Cake</option>
+            <option>CheeseCake</option>
+        </select>
+        <br>
+        <label for="hot">Hot</label>
+        <select id="hot">
+            <option>Rhubarb and Custard</option>
+            <option>All the Cobblers</option>
+            <option>Brownies</option>
+            <option>Krispy Kreme Donuts</option>
+            <option>Don's Peanut Butter</option>
+            <option>Apple Pie</option>
+            <option>Rice Pudding</option>
+        </select>
+        <br>
+        <button>Click here to submit</button>
+    </fieldset>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

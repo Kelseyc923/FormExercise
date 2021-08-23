@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+<fieldset>
+    <legend>Customer Experience Survey</legend>
+    <div>
+        <label for="storeNumber">Store Number</label>
+        <select name="storeNumber" id="storeNumber">
+        <option value="3109">3109</option>
+        <option value="2421">2421</option>
+        <option value="5357">5357</option>
+        </select>
+    </div>
+    <fieldset>
+        <legend>When you visited:</legend>
+        <div>
+            <label for="Date Visited">Date Visited</label>
+            <input type="date">
+            <br>
+            <label for="Time">Time</label>
+            <input type="Time" name="Time" id="Time">
+        </div>
+
+    </fieldset>
+    <div>
+        <label for="Full Name">Full Name:</label>
+        <input type="Full Name" name="Full Name" placeholder="Name">
+    </div>
+    <div>
+        <label for="Email">Email:</label>
+        <input type="Email" name="Email" placeholder="Email">
+    </div>
+    <fieldset>
+        <legend>Gender</legend>
+        <div>
+            <input type="radio" id="m" name="gender" value="Male">
+            <label for="Male">Male</label>
+        </div>
+        <div>
+            <input type="radio" id="f" name="gender" value="Female">
+            <label for="Female">Female</label>
+        </div>
+    </fieldset>
+    <div>
+        <label for="question">Tell us about your experience:</label>
+        <br>
+        <textarea name="" id="" cols="20" rows="2"></textarea>
+        <br>
+        <label for="question">Time visited in the last month:</label>
+        <br>
+        <textarea name="" id="" cols="20" rows="2"></textarea>
+        <div>
+            <input type="checkbox" name="userCheckbox" id="checkbox">
+            <label for="userCheckbox">Please check the box if you would be willing to be contacted about your experience</label>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </div>
+</fieldset>
+    
+</body>
+</html>
